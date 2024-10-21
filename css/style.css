@@ -1,0 +1,92 @@
+* {
+    font-family: madefor-text, helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+}
+
+header {
+    background-color: #333;
+}
+
+body { 
+    margin:0; 
+    padding: 0;
+}
+
+#panier {
+    height: 25px;
+}
+
+#header {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    color : white;
+}
+
+nav ul li > a:hover {
+    color: #C8AD7F !important;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+nav ul .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul .dropdown li {
+    display: block;
+}
+
+nav ul .dropdown li a {
+    padding: 1rem;
+    color: black;
+}
+
+nav ul .dropdown li a:hover {
+    color: black !important;
+    text-decoration: underline;
+}
+
+#insta{
+    border-right: 1px solid rgb(129, 129, 129);
+    border-left: 1px solid rgb(129, 129, 129);
+}
+
+#reseaux li a img{
+    margin: 0;
+    padding: 0;
+    height: 15px;
+    margin-right: 10px;
+}
+
+#header {
+    border-bottom: 1px solid rgb(129, 129, 129);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
